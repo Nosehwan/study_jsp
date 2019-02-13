@@ -10,7 +10,7 @@ import login.LoginVO;
 public class dbConn {
 	//Field
 	String driver = "oracle.jdbc.driver.OracleDriver";
-	String url = "jdbc:oracle:thin:@211.63.89.216:1521";
+	String url = "jdbc:oracle:thin:@localhost:1521";
 	String user = "scott";
 	String pwd = "tiger";
 	Connection conn;
